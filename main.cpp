@@ -1,11 +1,11 @@
 // g++ -std=c++17 -O2 -Wall main.cpp && ./a.out<in
 #include <iostream>
+#include <vector>
 // #define DEBUG
 using namespace std;
 
 int solve()
 {
-
   return 0;
 }
 int main()
