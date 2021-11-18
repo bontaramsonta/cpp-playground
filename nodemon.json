@@ -1,0 +1,5 @@
+{
+  "verbose": false,
+  "exec": "g++ --std=c++17 main.cpp & ./a.out<in>out",
+  "watch": ["main.cpp", "in"]
+}
