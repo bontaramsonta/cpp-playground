@@ -10,7 +10,11 @@ int solve()
 {
   int n;
   cin >> n;
-  cout << n;
+  int a[n];
+  for (int i = 0; i < n; i++)
+    cin >> a[i];
+  for (int i : a)
+    cout << i << " ";
   return 0;
 }
 int main()
