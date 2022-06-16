@@ -5,10 +5,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "g++-10 - Build and debug active file",
+      "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${fileDirname}/a.out",
+      "program": "${workspaceFolder}/a.out",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
@@ -20,10 +20,13 @@
           "description": "Enable pretty-printing for gdb",
           "text": "-enable-pretty-printing",
           "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
         }
-      ],
-      "preLaunchTask": "C/C++: g++-10 build active file",
-      "miDebuggerPath": "/usr/bin/gdb"
+      ]
     }
   ]
 }

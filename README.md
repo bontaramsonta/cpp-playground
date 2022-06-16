@@ -1,4 +1,4 @@
-# DSA Archive
+# C++ Playground
 
 ## fast development environment
 requirements
@@ -11,3 +11,6 @@ the output is written to out (output file) and the errors in terminal
 $ npm i -g nodemon
 $ nodemon
 ```
+> ⚠️ don't write to an output file because if you cause a infinite loop your system will crash. So for that remove ***"`<out`"*** from ***nodemon.json***
+
+1. 

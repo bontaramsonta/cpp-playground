@@ -1,0 +1,28 @@
+{
+  "name": "cpp-playground",
+  "version": "1.0.0",
+  "description": "C++ Playground for competive programming",
+  "main": "dev.js",
+  "type": "module",
+  "scripts": {
+    "dev": "dev.js",
+    "save": "save.js",
+    "reset": "reset.js",
+    "build": "build.js",
+    "start": "g++ -std=c++17 -O2 -Wall - && ./a.out<in"
+  },
+  "dependencies": {
+    "nodemon": "~2.0.16",
+    "dotenv": "~16.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bontaramsonta/cpp-playground.git"
+  },
+  "author": "bontaramsonta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bontaramsonta/cpp-playground/issues"
+  },
+  "homepage": "https://github.com/bontaramsonta/cpp-playground#readme"
+}
