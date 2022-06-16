@@ -4,11 +4,12 @@
   "description": "C++ Playground for competive programming",
   "main": "dev.js",
   "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "dev.js",
-    "save": "save.js",
-    "reset": "reset.js",
-    "build": "build.js",
+    "dev": "FORCE_COLOR=1 node dev.js",
+    "save": "node save.js",
+    "reset": "node reset.js",
+    "build": "node build.js",
     "start": "g++ -std=c++17 -O2 -Wall - && ./a.out<in"
   },
   "dependencies": {

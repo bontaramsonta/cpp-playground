@@ -8,9 +8,9 @@ nodemon({
   ext: '.cpp',
   watch: './*.cpp',
   events: {
-    restart: "clear"
+    restart: 'clear'
   },
-  colours: true,
+  colours: true
 })
 
 process.once('SIGINT', () => {
