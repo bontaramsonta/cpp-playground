@@ -1,0 +1,16 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".gitignore": true,
+    "package*.json": true
+  },
+  "editor.formatOnSave": true,
+  "files.associations": {
+    ".env*": "dotenv",
+    "*.css": "tailwindcss",
+    "string": "cpp",
+    "out": "plaintext",
+    "in": "plaintext",
+    "ostream": "cpp"
+  }
+}
